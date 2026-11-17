@@ -24,14 +24,10 @@ year        <- 2026
 ylimprecip  <- 30     # Y-Achse Niederschlag [mm]
 save.pdf    <- FALSE   # TRUE = als PDF speichern, FALSE = im Grafikfenster zeigen
 
-# Ordner mit den Monatsdaten (hier anpassen)
-setwd("/Users/marioschar/Documents/Wetterstation Daten/Monatsdaten/")
-
-
 # ---- Daten einlesen ------------------------------------------------------------
 
 # Beispieldatei liegt im Unterordner "data" neben dem Skript
-data_file <- "data/Monatsdaten-202610-hour.txt"
+data_file <- "data/Beispiel_Messdaten.txt"
 # Eigene Datei auswählen: die Zeile darüber auskommentieren und diese aktivieren
 # data_file <- file.choose()
 
