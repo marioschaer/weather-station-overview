@@ -21,16 +21,21 @@ The script generates a monthly overview, including:
 
 An included example dataset with hourly meteorological measurements demonstrates the functionality of the script.
 
-The dataset contains the following variables:
+The dataset contains the following variables (in this order):
 
-- Date and time
-- Temperature, daily maximum and minimum temperature [°C]
-- Relative humidity [%]
-- Dew point [°C]
-- Atmospheric pressure [hPa]
-- Mean wind speed and wind gusts [km/h]
-- Wind direction [degrees]
-- Precipitation [mm]
+- Date
+- Time
+- Mean Temperature
+- Hourly maximum
+- Hourly minimum temperature
+- Relative humidity
+- Dew point
+- Atmospheric pressure 
+- Mean wind speed
+- Maximum wind gusts
+- Wind direction
+- Precipitation
+- Solar Radiation
 
 ## Requirements
 
