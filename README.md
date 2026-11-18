@@ -6,8 +6,6 @@ This R script provides a monthly overview and visualization of meteorological me
 
 The analysis is based on an example dataset containing hourly measurements from a **Davis Vantage Pro 2 weather station** located in Reinach, Basel-Landschaft, Switzerland.
 
-The script is written entirely in **Base R**, without requiring additional packages.
-
 ## Features
 
 The script generates a monthly overview, including:
@@ -36,14 +34,15 @@ The dataset contains the following variables:
 
 ## Requirements
 
-- Base R only
+- R packages used: ggplot2, windRose, climaemet, grid, gridBase
 
 ## Usage
 
-1. Download or clone the repository.
+1. Download the repository.
 2. Open the RStudio project.
 3. Open `Monthly_Overview.R`.
 4. Adjust the month and year in the **Settings** section, and choose a MeteoSwiss station for climate comparison.
 5. Run the entire script.
 
-The script automatically reads the included example dataset from the `data` folder. Alternatively, users can select their own monthly measurement file using `file.choose()`.
+## Example Output
+![Monthly overview, September 2026](example_output.png)
