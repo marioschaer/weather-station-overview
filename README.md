@@ -42,8 +42,8 @@ The dataset contains the following variables:
 
 1. Download or clone the repository.
 2. Open the RStudio project.
-3. Open `Monatsübersicht.R`.
-4. Adjust the month and year in the **Settings** section.
+3. Open `Monthly_Overview.R`.
+4. Adjust the month and year in the **Settings** section, and choose a MeteoSwiss station for climate comparison.
 5. Run the entire script.
 
 The script automatically reads the included example dataset from the `data` folder. Alternatively, users can select their own monthly measurement file using `file.choose()`.
