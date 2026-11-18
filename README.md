@@ -39,7 +39,8 @@ The dataset contains the following variables (in this order):
 
 ## Requirements
 
-- R packages used: ggplot2, windRose, climaemet, grid, gridBase
+- Base R
+- R packages used: ggplot2, climaemet, grid, gridBase
 
 ## Example Output
 <img src="example_output.png" width="60%">
