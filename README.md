@@ -36,13 +36,5 @@ The dataset contains the following variables:
 
 - R packages used: ggplot2, windRose, climaemet, grid, gridBase
 
-## Usage
-
-1. Download the repository.
-2. Open the RStudio project.
-3. Open `Monthly_Overview.R`.
-4. Adjust the month and year in the **Settings** section, and choose a MeteoSwiss station for climate comparison.
-5. Run the entire script.
-
 ## Example Output
-![Monthly overview, September 2026](example_output.png)
+<img src="example_output.png" width="80%">
